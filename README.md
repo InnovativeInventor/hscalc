@@ -1,5 +1,5 @@
 ## hscalc
-A simple command-line calcultor utility with various styles of implementation. Monadic parsing, functors, and lambda expressions galore!
+A simple command-line calcultor utility with various styles of implementation. Monadic parsing, functors, combinators, and lambda expressions galore!
 
 Not ready for real use yet.
 
