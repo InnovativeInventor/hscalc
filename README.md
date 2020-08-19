@@ -1,5 +1,8 @@
 ## hscalc
-A simple command-line calculator utility with various styles of implementation. 
+
+[![asciicast](https://asciinema.org/a/354394.svg)](https://asciinema.org/a/354394)
+
+A simple command-line REPL calculator utility with various styles of implementation. 
 Monadic parsing, functors, combinators, and lambda expressions galore!
 
 Not ready for real use yet.
