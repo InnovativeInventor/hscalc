@@ -1,0 +1,15 @@
+module Lib
+    ( parse
+    ) where
+
+import qualified Data.Text as T
+
+textwrap :: (T.Text -> T.Text) -> String -> String 
+textwrap f a = T.unpack ( f (T.pack a))
+
+-- parse :: String -> T.Text
+parse :: String -> String
+-- parse a = T.splitOn "+" T.pack a
+parse a = T.unpack (T.unwords (T.splitOn (T.pack "+") (T.pack a)))
+-- parse = splitOn "someFunc"
+
